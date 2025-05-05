@@ -1,4 +1,5 @@
 # CodingSphere-FastAPI
+# CodingSphere-FastAPI
 
 # ⚡ CodingSphere Auth API - FastAPI + JWT + RBAC
 
@@ -14,6 +15,37 @@ This project implements a secure authentication API using **FastAPI**, **JWT**, 
 [View Live API Docs](https://codingsphere-fastapi-1.onrender.com/docs)
 
 ---
+
+## 📌 Project Structure
+
+```
+project-root/
+│
+├── app/
+│ ├── main.py # FastAPI application entrypoint
+│ ├── models/ # SQLAlchemy models
+│ ├── schemas/ # Pydantic schemas
+│ ├── router/ # API endpoints
+│ ├── repository/ # Logic for DB operations
+│ ├── database/ # DB connection and config
+│ └── auth/ # JWT handling, password hashing, and role-based authentication
+│
+├── .env # Environment variables (e.g., DB URI, JWT secret)
+│ # ➤ Example:
+│ # DATABASE_URL=sqlite:///./demo.db
+│ # SECURITY_KEY=your_generated_key
+│
+├── requirements.txt # Python dependencies
+│ # ➤ Install with:
+│ # pip install -r requirements.txt
+│
+├── .gitignore # Files/directories to exclude from Git
+│
+└── README.md # Project documentation
+```
+
+---
+
 
 ## 🛠️ Local Setup
 
@@ -44,14 +76,14 @@ source venv/bin/activate       # On Linux/macOS
 pip install -r requirements.txt
 ```
 
-⚙️ Configuration
+### 4. Configure `.env`
 
-Create or modify the existing .env file in the root directory:
+A .env file already exists in the root folder. Update it with:
 
-DATABASE_URL=sqlite:///./demo.db
-SECRET_KEY=<your_secret_key_from_jwtsecret.com>
-
-To generate a strong secret key, visit:🔐 https://jwtsecret.com/generate
+```env
+DATABASE_URL=sqlite:///../demo.db
+SECURITY_KEY=your_generated_secret_key
+```
 
 Generate a secure key here: [jwtsecret.com](https://jwtsecret.com/generate)
 
@@ -83,42 +115,21 @@ You can test the API using:
 
 ---
 
-## 📁 .gitignore
 
-Make sure your repository includes the following in `.gitignore`:
 
-```gitignore
-__pycache__/
-*.py[cod]
-.env
-venv/
-*.db
-```
+# Thank You! 🙏
 
----
+Thank you for checking out this project! I appreciate your time and interest.
 
-## 📌 Project Structure
+If you have any questions, feedback, or suggestions, feel free to reach out to me:
 
-```
-app/
-│
-├── main.py               # FastAPI application entrypoint
-├── models/               # SQLAlchemy models
-├── schemas/              # Pydantic schemas
-├── router/               # API endpoints
-├── repository/           # Logic for DB operations
-└── database/             # DB connection and config
-```
+📧 **Email**: [maasifar@gmail.com](mailto:maasifar@gmail.com)  
+📱 **Phone**: +91 8668141852
+
+Your support means a lot! 😊
 
 ---
 
-## ✅ Submit Assignment
+> _"Innovation is the key to progress."_ 🚀
 
-When you're ready, submit your GitHub repo at:  
-📨 [Assignment Submission Form](https://forms.gle/PsffvY3dyJCZpL5z5)
 
----
-
-## 📃 License
-
-This project is licensed for educational and assessment use.
