@@ -59,7 +59,7 @@ pip install -r requirements.txt
 A .env file already exists in the root folder. Update it with:
 
 ```env
-DATABASE_URL=sqlite:///../demo.db
+DATABASE_URLpostgresql://<username>:<password>@<host>:<port>/<database_name>
 SECURITY_KEY=your_generated_secret_key
 ```
 
