@@ -35,7 +35,7 @@ def update(request:project_schema.ProjectBase,id:int,db:Session=Depends(database
     else:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,detail="You are not authorized to perform this action")
     
-@router.delete('/{id}',status_code=status.HTTP_204_NO_CONTENT)
+@router.delete('/{id}',status_code=status.HTTP_200_OK)
 def delete(id:int,db:Session=Depends(database.get_db),current_user:token_schema.Token=Depends(OAuth2.get_current_user)):
     if current_user.role=='admin':
         return project_repo.delete(id,db)
