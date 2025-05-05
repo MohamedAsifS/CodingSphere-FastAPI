@@ -59,7 +59,7 @@ pip install -r requirements.txt
 A .env file already exists in the root folder. Update it with:
 
 ```env
-DATABASE_URLpostgresql://<username>:<password>@<host>:<port>/<database_name>
+DATABASE_URL=postgresql://<username>:<password>@<host>:<port>/<database_name>
 SECURITY_KEY=your_generated_secret_key
 ```
 
@@ -89,7 +89,7 @@ You can test the API using:
 ## 📹 Demo Video
 
 ▶️ [Watch Setup & Usage](https://www.youtube.com/watch?v=your_video_id)  
-*(Replace with your demo link)*
+
 
 ---
 
