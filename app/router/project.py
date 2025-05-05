@@ -14,7 +14,7 @@ router=APIRouter(
 
 
 
-@router.get('/',status_code=status.HTTP_200_OK,response_model=List[project_schema.ProjectBase])
+@router.get('/',status_code=status.HTTP_200_OK,response_model=List[project_schema.ProjectShow])
 def get_all_projects(db:Session=Depends(database.get_db),current_user:token_schema.Token=Depends(OAuth2.get_current_user)):
     return project_repo.get_all(db)
 
