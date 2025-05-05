@@ -88,7 +88,7 @@ You can test the API using:
 
 ## 📹 Demo Video
 
-▶️ [Watch Setup & Usage](https://www.youtube.com/watch?v=your_video_id)  
+▶️ [Watch Setup & Usage](https://youtu.be/MrcyaB6SnL8)  
 
 
 ---
