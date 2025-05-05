@@ -18,31 +18,30 @@ This project implements a secure authentication API using **FastAPI**, **JWT**, 
 
 ## 📌 Project Structure
 
-```
 project-root/
 │
 ├── app/
-│ ├── main.py # FastAPI application entrypoint
-│ ├── models/ # SQLAlchemy models
-│ ├── schemas/ # Pydantic schemas
-│ ├── router/ # API endpoints
-│ ├── repository/ # Logic for DB operations
-│ ├── database/ # DB connection and config
-│ └── auth/ # JWT handling, password hashing, and role-based authentication
+│ ├── main.py               # FastAPI application entrypoint
+│ ├── models/               # SQLAlchemy models (DB schema definitions)
+│ ├── schemas/              # Pydantic schemas (data validation & serialization)
+│ ├── router/               # API endpoints (FastAPI route handlers)
+│ ├── repository/           # Logic for database operations
+│ ├── database/             # Database connection and config
+│ ├── auth/                 # JWT handling, password hashing, role-based authentication
+│ ├── .env                  # Environment variables (e.g., DB URI, JWT secret)
+│ │                        # Example:
+│ │                        # DATABASE_URL=sqlite:///./app/demo.db
+│ │                        # SECURITY_KEY=your_generated_key
+│ └── demo.db               # SQLite database file
 │
-├── .env # Environment variables (e.g., DB URI, JWT secret)
-│ # ➤ Example:
-│ # DATABASE_URL=sqlite:///./demo.db
-│ # SECURITY_KEY=your_generated_key
+├── requirements.txt        # Python dependencies
+│                          # Install with:
+│                          # pip install -r requirements.txt
 │
-├── requirements.txt # Python dependencies
-│ # ➤ Install with:
-│ # pip install -r requirements.txt
+├── .gitignore              # Files and directories to exclude from Git
 │
-├── .gitignore # Files/directories to exclude from Git
-│
-└── README.md # Project documentation
-```
+└── README.md               # Project documentation
+
 
 ---
 
