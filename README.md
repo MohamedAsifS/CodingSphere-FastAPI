@@ -44,14 +44,14 @@ source venv/bin/activate       # On Linux/macOS
 pip install -r requirements.txt
 ```
 
-### 4. Configure `.env`
+⚙️ Configuration
 
-Create a `.env` file in the project root:
+Create or modify the existing .env file in the root directory:
 
-```env
 DATABASE_URL=sqlite:///./demo.db
-SECURITY_KEY=your_generated_secret_key
-```
+SECRET_KEY=<your_secret_key_from_jwtsecret.com>
+
+To generate a strong secret key, visit:🔐 https://jwtsecret.com/generate
 
 Generate a secure key here: [jwtsecret.com](https://jwtsecret.com/generate)
 
