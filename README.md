@@ -18,29 +18,8 @@ This project implements a secure authentication API using **FastAPI**, **JWT**, 
 
 ## 📌 Project Structure
 
-project-root/
-│
-├── app/
-│ ├── main.py               # FastAPI application entrypoint
-│ ├── models/               # SQLAlchemy models (DB schema definitions)
-│ ├── schemas/              # Pydantic schemas (data validation & serialization)
-│ ├── router/               # API endpoints (FastAPI route handlers)
-│ ├── repository/           # Logic for database operations
-│ ├── database/             # Database connection and config
-│ ├── auth/                 # JWT handling, password hashing, role-based authentication
-│ ├── .env                  # Environment variables (e.g., DB URI, JWT secret)
-│ │                        # Example:
-│ │                        # DATABASE_URL=sqlite:///./app/demo.db
-│ │                        # SECURITY_KEY=your_generated_key
-│ └── demo.db               # SQLite database file
-│
-├── requirements.txt        # Python dependencies
-│                          # Install with:
-│                          # pip install -r requirements.txt
-│
-├── .gitignore              # Files and directories to exclude from Git
-│
-└── README.md               # Project documentation
+![Notepad_6ghoiaSvY4](https://github.com/user-attachments/assets/a8555d65-10a8-4e72-8e7f-94210f9dafe8)
+
 
 
 ---
