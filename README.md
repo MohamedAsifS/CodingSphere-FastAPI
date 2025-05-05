@@ -8,7 +8,7 @@ This project implements a secure authentication API using **FastAPI**, **JWT**, 
 
 ## 🌐 Hosted On
 
-**Render**: FastAPI app hosted with SQLite  
+**Render**: FastAPI app hosted with Postgres 
 [View Live API Docs](https://codingsphere-fastapi-1.onrender.com/docs)
 
 ---
