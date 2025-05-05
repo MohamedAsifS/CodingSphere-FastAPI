@@ -29,14 +29,8 @@ This project implements a secure authentication API using **FastAPI**, **JWT**, 
 - Python 3.8+
 - Git
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/codingsphere-auth-api.git
-cd codingsphere-auth-api
-```
-
-### 2. Create Virtual Environment
+### 1. Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -44,6 +38,15 @@ python -m venv venv
 venv\Scripts\activate        # On Windows
 source venv/bin/activate       # On Linux/macOS
 ```
+
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/codingsphere-auth-api.git
+cd codingsphere-auth-api
+```
+
+
 
 ### 3. Install Requirements
 
