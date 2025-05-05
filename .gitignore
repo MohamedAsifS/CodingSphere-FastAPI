@@ -7,14 +7,7 @@ __pycache__/
 dist/
 build/
 
-# # Environments
-# .env
-# .env.*
-# .venv/
-# venv/
-# ENV/
-# env/
-# *.sqlite3
+
 
 # VSCode and IDEs
 .vscode/
