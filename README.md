@@ -1,4 +1,4 @@
-# ⚡ CodingSphere Auth API - FastAPI + JWT + RBAC
+# ⚡  Auth API - FastAPI + JWT + RBAC
 
 This project implements a secure authentication API using **FastAPI**, **JWT**, and **Role-Based Access Control (RBAC)**. It allows user registration, login, and role-based access control to endpoints.
 
